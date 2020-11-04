@@ -1,0 +1,46 @@
+$ git status
+On branch viktor_ex
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   views/html/QA-WAC-20/viktor_ex/TesxtViktor.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+QA-WAC-20@DESKTOP-Q29VB82 MINGW64 /d/viktor.qa.engineer/qa-wac-20 (viktor_ex)
+$ git add .
+
+QA-WAC-20@DESKTOP-Q29VB82 MINGW64 /d/viktor.qa.engineer/qa-wac-20 (viktor_ex)
+$ git status
+On branch viktor_ex
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   views/html/QA-WAC-20/viktor_ex/TesxtViktor.html
+
+
+QA-WAC-20@DESKTOP-Q29VB82 MINGW64 /d/viktor.qa.engineer/qa-wac-20 (viktor_ex)
+$ git commit -m "add form"
+[viktor_ex 012cd06] add form
+ 1 file changed, 52 insertions(+)
+
+QA-WAC-20@DESKTOP-Q29VB82 MINGW64 /d/viktor.qa.engineer/qa-wac-20 (viktor_ex)
+$ git push origin
+FETCH_HEAD           ORIG_HEAD            origin/HEAD          origin/SerrChe       origin/viktor_ex
+HEAD                 origin/billi         origin/liusy2288     origin/szavadskyi    vikor_ex
+master               origin/dianabranch   origin/master        origin/titov         viktor_ex
+
+QA-WAC-20@DESKTOP-Q29VB82 MINGW64 /d/viktor.qa.engineer/qa-wac-20 (viktor_ex)
+$ git push origin vik
+vikor_ex    viktor_ex
+
+QA-WAC-20@DESKTOP-Q29VB82 MINGW64 /d/viktor.qa.engineer/qa-wac-20 (viktor_ex)
+$ git push origin viktor_ex
+Enumerating objects: 13, done.
+Counting objects: 100% (13/13), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (7/7), 1.03 KiB | 1.03 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 3 local objects.
+To https://github.com/Billiscorp/qa-wac-20.git
+   dc1ffa5..012cd06  viktor_ex -> viktor_ex
