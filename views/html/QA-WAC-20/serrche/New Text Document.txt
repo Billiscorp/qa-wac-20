@@ -12,3 +12,4 @@
 <input type="radio" value="male" name="sex" checked>Male</>
 <br>
 <input type="radio" value="female" name="sex">Female</>
+
